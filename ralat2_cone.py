@@ -14,7 +14,7 @@ def kira_luas_permukaan_kon(r, h):
     return round(luass_permukaan_kon, 2)
 
 def main():
-    (x, ) = dapat_jejari_tinggi()
+    (x, y) = dapat_jejari_tinggi()
     luas_permukaan_kon = kira_luas_permukaan_kon(x, y)
     print(f"luas permukaan kon = {luas_permukaan_kon:.2f}")
 
